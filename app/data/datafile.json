@@ -1,0 +1,16 @@
+{
+  "rooms" : [
+  {
+    "name" : "Master Bedroom",
+    "purpose" : "Sleep"
+  },
+  {
+    "name" : "Zoe's Room",
+    "purpose" : "Jumping on the bed"
+  },
+  {
+    "name" : "Kitchen",
+    "purpose" : "Cooking"
+  }
+  ]
+}
