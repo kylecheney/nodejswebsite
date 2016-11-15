@@ -19,6 +19,8 @@ var data = require('./data/datafile.json');
 
 var app = express();
 
+app.set('dataFile', data);
+
 app.use(require('./routes/index.js'))
 
 app.listen(8080, function(){
