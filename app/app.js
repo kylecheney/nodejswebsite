@@ -20,17 +20,6 @@ var data = require('./data/datafile.json');
 var app = express();
 
 
-app.get('/', function(req, res) {
-  res.send(data.rooms[0].name);
-})
-
-app.get('/narnia', function (req,res) {
-  res.send(`
-    <h1>For Narnia!</h1>
-    ${data.rooms[1].name}
-    `)
-})
-
 app.listen(8080, function(){
   console.log('listening to the port');
 })
