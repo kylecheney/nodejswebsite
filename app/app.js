@@ -19,6 +19,7 @@ var data = require('./data/datafile.json');
 
 var app = express();
 
+app.use(require('routes/index.js'))
 
 app.listen(8080, function(){
   console.log('listening to the port');
