@@ -22,6 +22,8 @@ var app = express();
 app.set('dataFile', data);
 
 app.use(require('./routes/index.js'))
+app.use(require('./routes/rooms.js'))
+
 
 app.listen(8080, function(){
   console.log('listening to the port');
